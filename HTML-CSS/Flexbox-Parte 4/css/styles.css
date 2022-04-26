@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 0 30px;
+}
+
+body {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.two-columns .col {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  margin: 15px;
+  padding: 20px;
+}
+
+.gallery {
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.gallery .img {
+  flex: 1 0 50%;
+  height: 50px;
+  background-color: blue;
+  margin: 10px;
+}

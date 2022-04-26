@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.pai {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+p {
+    font-size: 2em;
+}
+
+.color-one {
+    background-color: turquoise;
+}
+
+.color-two {
+    background-color: red;
+}
+
+.a-header {
+    font-size: 30px;
+    margin-right: 10px;
+}

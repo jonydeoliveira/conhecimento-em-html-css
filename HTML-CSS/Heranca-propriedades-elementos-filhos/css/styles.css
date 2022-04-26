@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+    color: red;
+}
+
+h1 {
+    color: initial;
+    font-family: inherit;
+}

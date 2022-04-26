@@ -1,0 +1,15 @@
+.texto {
+    display: block; /* Já é display block por padrão */
+    box-sizing: border-box;
+    background-color: red;
+    width: auto;
+    min-width: 0%;
+    max-width: auto;
+    height: auto;
+    min-width: 0%;
+    max-height: auto;
+    overflow: auto;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    border: 3px solid black;
+}

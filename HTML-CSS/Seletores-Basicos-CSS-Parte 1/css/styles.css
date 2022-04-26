@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1 {
+    color: purple;
+}
+
+body div section p,
+body div section h1 {
+    color: red;
+}
+
+.color-magenta {
+    color: magenta;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.pai {
+    color: aqua;
+}
+
+div {
+    color: initial; /* Filha não herda a cor de pai */
+}
+
+/* OU */
+
+.pai .filha {
+    color: brown;
+}

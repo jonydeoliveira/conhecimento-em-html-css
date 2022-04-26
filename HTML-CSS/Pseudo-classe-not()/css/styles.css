@@ -1,0 +1,51 @@
+.heading1 {
+    transition: all 1s ease-in-out;
+}
+
+.heading1:hover {
+    background-color: blue;
+}
+
+a {
+    color: darkorange;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: magenta;
+}
+
+a:active {
+    background: darkslateblue;
+    text-decoration: none;
+}
+
+input:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 2px solid black;
+}
+
+input:checked + p {
+    background: red;
+}
+
+input:not(:checked) + p {
+    background: yellow;
+}
+
+input:required {
+    background-color: red;
+    text-anchor: end;
+}
+
+p:not(.impar) {
+    color: blue;
+}

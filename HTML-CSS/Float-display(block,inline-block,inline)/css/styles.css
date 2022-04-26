@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    padding: 15px;
+}
+
+.grid .col {
+    padding: 15px;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+
+.grid .col-content {
+    width: 100%;
+    height: 100%;
+    background-color: magenta;
+
+}
+
+.grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* OUTRA FORMA
+p {
+    clear: left;
+}
+*/

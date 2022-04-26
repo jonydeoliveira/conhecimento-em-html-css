@@ -1,0 +1,33 @@
+ul li::after {
+    content: ' - ';
+    background-color: aquamarine;
+    color: magenta;
+    display: block;
+}
+
+ul li::before {
+    content: ' - ';
+    background-color: blue;
+    color: darkred;
+    display: block;
+}
+
+p::first-letter {
+    font-size: 60px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    background-color: magenta;
+}
+
+p::selection {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários e Inputs</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      label {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p>O meu formulário</p>
+      <p>
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Insira seu nome aqui"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="linguagens">Quais dessas linguagens você conhece?</label><br><br>
+        <input
+          type="checkbox"
+          id="javascript"
+          name="javascript"
+          value="javascript"
+        />Javascript
+      </p>
+      <input
+          type="checkbox"
+          id="python"
+          name="python"
+          value="python"
+        />Python
+      </p>
+
+      <input
+          type="checkbox"
+          id="nenhuma"
+          name="nenhuma"
+          value="nenhuma"
+        />Nenhuma das duas
+      </p>
+
+      <p>
+      <label for="genero">Gênero:</label><br><br>
+      <input
+          type="radio"
+          id="feminino"
+          name="genero"
+          value="feminino"
+        />Feminino
+      </p>
+
+      <input
+          type="radio"
+          id="masculino"
+          name="genero"
+          value="masculino"
+        />Masculino
+      </p>
+
+      <input
+          type="radio"
+          id="Outro"
+          name="genero"
+          value="outro"
+        />Outro
+      </p>
+      
+      <p>
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" id="date" name="date" required>
+      </p>
+
+      <p>
+        <label for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" placeholder="Insira seu e-mail aqui" required>
+      </p>
+
+      <p>
+        <label for="file">Sua foto:</label><br>
+        <input type="file" id="file" name="file" accept="image/*" required>
+      </p>
+
+      <p>
+        <label for="number">Número:</label><br>
+        <input type="number" id="number" name="number" placeholder="Insira o número aqui" minlength="11" maxlength="11" required>
+      </p>
+
+      <p>
+        <label for="password">Sua senha:</label><br>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha aqui" required>
+      </p>
+
+      <p>
+        <label for="github">Seu Github:</label><br>
+        <input type="url" id="github" name="github" placeholder="Coloque o link do seu github aqui" required>
+      </p>
+
+      <p>
+        <label for="select">Selecione uma opção:</label><br>
+        <select id="select" name="select">
+          <optgroup label="Grupo1">
+            <option value="qualquer1" label="Opção 1"></option>
+            <option value="qualquer2" label="Opção 2"></option>
+            <option value="qualquer3" label="Opção 3"></option>
+            <option value="qualquer4" label="Opção 4"></option>
+          </optgroup>
+          <optgroup label="Grupo2">
+            <option value="qualquer5" label="Opção 5"></option>
+            <option value="qualquer6" label="Opção 6"></option>
+            <option value="qualquer7" label="Opção 7"></option>
+            <option value="qualquer8" label="Opção 8"></option>
+          </optgroup>
+        </select>
+      </p>
+
+      <p>
+        <label for="textarea">Área de texto:</label><br>
+        <textarea nome="textarea" id="textarea" rows="10" cols="50"></textarea>
+      </p>
+
+      <p>
+        <button type="reset">Resetar</button>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>

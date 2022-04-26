@@ -1,0 +1,31 @@
+/* 
+100. ID
+10. Classes,atributos e pseudo-classes
+1. Elementos e pseudo-elementos
+*/
+
+#p {
+  background-color: red;
+}
+
+.p {
+  background-color: yellow;
+}
+
+p {
+  background-color: green;
+}
+
+/* -------------- */
+
+#p .p {
+  background-color: magenta;
+}
+
+#p .p p {
+  background-color: aqua;
+}
+
+p {
+  background-color: blue !important; /* Não recomendável usar !important */
+}

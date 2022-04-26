@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+[atributo-qualquer] {
+    color: magenta;
+}
+
+[checked] {
+    width: 30px;
+    height: 30px;
+}
+
+/*
+[atributo-qualquer~=""]
+[atributo-qualquer^=""]
+[atributo-qualquer$=""]
+[atributo-qualquer*=""]
